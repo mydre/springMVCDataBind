@@ -46,7 +46,7 @@ Course类将前端传递进来的数据包装起来了，如数据可以是id，
     }
 ```
 绑定List数据类型，除了在controller中处理，还需要些写包装数据的类<br>
-前端数据传递的格式示范：<br>
+前端数据传递的格式示范：
 ```jsp
 <input type="text" class="form-control" name="courseList[0].id" placeholder="请输入课程编号">
 <input type="text" class="form-control" name="courseList[1].id" placeholder="请输入课程编号">
