@@ -1,7 +1,9 @@
 什么是数据绑定？
 =
 将HTTP请求中的参数绑定到Handler业务方法的形参。 springMVC框架会自动帮我们把前台页面表单中传递进来的各个参数所包含的数据封装为后端中的一个对象（形式参数）。也就是说，springMVC框架自动将前段传递进来的分散的参数封装为一个POJO。后端则直接可以对该POJO对象进行其他的操作，不用在后端自动来完成转换成对象的过程。<br>
-![流程](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_2.png)
+
+![流程](https://github.com/mydre/springMVCDataBind/blob/master/src/main/webapp/picture/Snip20190420_2.png)
+
 基本数据类型的数据绑定
 -
 在controller中可以这样定义：<br>
